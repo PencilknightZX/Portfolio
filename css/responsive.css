@@ -1,0 +1,60 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Show Menu Button */
+    #menu-toggle {
+        display: block;
+    }
+
+    /* Hide Navigation by Default */
+    header ul {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    /* Show Navigation When Toggled */
+    header ul.show {
+        display: flex;
+    }
+
+    /* Adjust Links */
+    header ul li a {
+        padding: 10px 15px;
+    }
+
+    /* Section Title */
+    section h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
