@@ -18,6 +18,6 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 ### Access the Website
 The portfolio is hosted on GitHub Pages and can be accessed at:
 ```
-https://PencilknightZX.github.io/portfolio-website/
+https://pencilknightzx.github.io/Portfolio/
 ```
 ---
