@@ -30,3 +30,22 @@ document.querySelectorAll('header ul li a').forEach(link => {
         }
     });
 });
+
+// Handle form submission
+document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent actual form submission
+
+    // Clear the form fields
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+
+    // Display the confirmation message
+    const formStatus = document.getElementById("form-status");
+    formStatus.style.display = "block";
+
+    // Hide the confirmation message after 5 seconds
+    setTimeout(() => {
+        formStatus.style.display = "none";
+    }, 5000);
+});
