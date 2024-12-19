@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Access Hub | Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project-detail.css">
+</head>
+<body>
+    <header>
+        <h1>Emmanuel Ifeanyi</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="project-detail">
+            <h2>Cloud Access Hub</h2>
+            <p>The Cloud Access Hub is an advanced backend system designed to streamline access to cloud services. By leveraging FastAPI, this project ensures seamless management of user subscriptions while maintaining a robust architecture for role-based access control (RBAC). The system is designed to cater to diverse user needs, offering real-time usage tracking and strict enforcement of API rate limits to prevent abuse.</p>
+
+            <p>This project focuses on providing an efficient and secure backend infrastructure for organizations looking to manage cloud resources effectively. The integration of MongoDB ensures high-speed data retrieval and storage, while Motor's asynchronous capabilities enhance the system's scalability and performance.</p>
+
+            <h3>Technologies Used:</h3>
+            <ul>
+                <li>FastAPI - For building high-performance APIs.</li>
+                <li>Python - As the core programming language for logic implementation.</li>
+                <li>MongoDB - A NoSQL database for efficient data storage.</li>
+                <li>Uvicorn - An ASGI server for running FastAPI applications.</li>
+                <li>Motor - For asynchronous database interactions.</li>
+                <li>Pydantic - To validate and parse data models.</li>
+            </ul>
+
+            <h3>Challenges Faced:</h3>
+            <p>Developing the Cloud Access Hub came with several challenges. Implementing real-time usage tracking required designing an efficient system for monitoring API requests and updating usage statistics without degrading performance. Additionally, ensuring seamless integration with MongoDB using Motor posed hurdles, particularly around managing asynchronous operations and maintaining data consistency.</p>
+
+            <p>Another significant challenge was enforcing API rate limits dynamically based on user roles and subscription plans. This required careful planning and testing to ensure fairness and system reliability under heavy traffic.</p>
+
+            <div class="screenshots">
+                <div class="screenshot">
+                    <img src="images/plans.png" alt="Cloud Access Hub Screenshot 1">
+                    <h3>Admin creating a new subscription plan</h3>
+                </div>
+                <div class="screenshot">
+                    <img src="images/apicalls.png" alt="Cloud Access Hub Screenshot 2">
+                    <h3>Calling API</h3>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/PencilknightZX/Cloud-Access-Hub" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Emmanuel Ifeanyi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

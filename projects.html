@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css"> 
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Your Logo</h1>
+        <button id="menu-toggle">☰</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>Explore some of the exciting projects I’ve worked on, showcasing my technical skills and creativity.</p>
+
+            <div class="projects-container">
+                <!-- Project Card: Cloud Access Hub -->
+                <div class="project-card">
+                    <a href="cloud-access.html" style="text-decoration: none;">
+                        <img src="images/cloud-icon.png" alt="Cloud Access Hub">
+                        <div class="project-info">
+                            <h3>Cloud Access Hub</h3>
+                            <p>
+                                This application is a FastAPI-based backend system to manage access to cloud services based on user subscriptions. 
+                                It provides role-based access control (RBAC), usage tracking, and enforcement of API limits.
+                            </p>
+                            <p><strong>Technologies Used:</strong> FastAPI, Python, MongoDB, Uvicorn, Motor, Pydantic</p>
+                            <p><strong>Challenges Faced:</strong> Implementing real-time usage tracking and ensuring seamless integration with MongoDB.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project Card: EzPaint -->
+                <div class="project-card">
+                    <a href="ezpaint.html" style="text-decoration: none;">
+                        <img src="images/paint-bucket.png" alt="EzPaint">
+                        <div class="project-info">
+                            <h3>EzPaint</h3>
+                            <p>
+                                A C++ drawing application built using wxWidgets, supporting image saving and loading. 
+                                It enables users to draw, save their work as PNG or XML, and reload for further editing.
+                            </p>
+                            <p><strong>Technologies Used:</strong> C++, wxWidgets</p>
+                            <p><strong>Challenges Faced:</strong> Handling XML parsing and ensuring cross-platform compatibility of the application.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Emmanuel Ifeanyi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
